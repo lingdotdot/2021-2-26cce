@@ -46,4 +46,34 @@ int main()
 	printf("%d\n", ans);
 }
 ```
+## 第四題
+```C
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d", &n);
+	
+	if(n>=90) printf("A\n");
+	else if(n>=80) printf("B\n");
+	else if(n>=60) printf("C\n");
+	else printf("F\n");
+}
+```
+## 第五題
+```C
+#include <stdio.h>
+int main()
+{
+	int a,b,i, ans=1;
+	scanf("%d%d", &a,&b);
+	
+	for(int i=1; i<=b; i++){
+		if(a%i==0 && b%i==0){
+			ans=i;
+		}
+	}
+	printf("%d %d\n", a/ans, b/ans);
+}
+```
 
