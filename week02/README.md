@@ -1,6 +1,6 @@
 # WEEK02
 # 第一題
-```
+```C
 #include <stdio.h>
 int main()
 {
@@ -13,7 +13,7 @@ int main()
 }
 ```
 # 第二題
-```
+```C
 #include <stdio.h>
 int main()
 {
@@ -30,7 +30,7 @@ int main()
 }
 ```
 # 第三題
-```
+```C
 #include <stdio.h>
 int main()
 {
